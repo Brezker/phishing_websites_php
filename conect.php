@@ -2,7 +2,7 @@
 function conectar(){
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "root";
     $dbname = "social_data";
     $db =new mysqli($servername, $username, $password, $dbname);
     $db->set_charset("utf8");
